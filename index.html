@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+</head>
+<body>
+    <div id = "score">0</div>
+    <div id = "message"></div>
+    <div>
+     <button id = "hitMe" onClick = "player.hitMe()">Hit me!</button>  
+     <button id = "stick" onClick = "player.stick()">Stick</button>  
+    </div>
+    <div id = "stickScore" onClick = "stickButton()">Player Stick: 0</div>
+    <br/>
+    <div id = "winLose">Game In Progress</div>
+    </br>
+    <div id = "dealerScore">0</div>
+    <div id = "dealerMessage">Dealer Score</div>
+    <button id = "dealerHit" onClick = "dealer.dealerHit()">Dealer Score</button>  
+<script src = "script.js"></script>
+</body>
+</html>
